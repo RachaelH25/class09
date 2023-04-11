@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class 09 demo</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="form">
+            <form id="new-store-form">
+                <fieldset>
+                    <legend>Enter a new Cookie Store</legend>
+                    <!-- legend is the name/label for collection of things in the fieldset -->
+                    <label for="name-input">Store Name:</label>
+                    <input type="text" id="name-input" name="name" />
+
+                    <label for="min-cust-input">Min Customers / hour</label>
+                    <input type="text" id="min-cust-input" name="minCust" />
+
+                    <label for="max-cust-input">Max Customers / hour</label>
+                    <input type="text" id="max-cust-input" name="maxCust" />
+
+                    <label for="avg-cookies-input">Average Cookies Sold</label>
+                    <input type="text" id="avg-cookies-input" name="avg-cookies-input" />
+
+                    <button id="submit-button" type="submit">SUBMIT</button>
+                    <button type="reset">RESET</button>
+                </fieldset>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
